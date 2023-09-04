@@ -1,6 +1,6 @@
-# bookapp
+# OpenSea
 
-This template should help get you started developing with Vue 3 in Vite.
+Proyecto de Open sea usando vue 3 y tailwind css
 
 
 
