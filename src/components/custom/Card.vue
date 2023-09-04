@@ -3,7 +3,7 @@
     const { title, price,volumen,image } = props.card;
 </script>
 <template>
-    <div class="content-card cursor-pointer max-w-xs w-72 rounded-xl shadow-xl overflow-hidden transition ease-in-out duration-200 hover:-translate-y-1">
+    <div class="content-card cursor-pointer max-w-xs w-70 rounded-xl shadow-xl overflow-hidden transition ease-in-out duration-200 hover:-translate-y-1">
         <div class="w-full h-48">
             <img class="w-full h-full" :src="image" alt=""> 
         </div>
@@ -21,12 +21,11 @@
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 
 <style scoped>
 .content-card {
-    min-width: 285px;
+    min-width: 280px;
 }
 </style>
